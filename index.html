@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <div class="app-container">
+          <h1 class="title">Cờ Caro</h1>   
+        </div>
+    
+        <div class="board">    
+          <div class="status" id="status"></div>
+          <div class="list-button">
+            <button class="button" id="restart-btn">
+                <i class="bi bi-arrow-repeat"></i>
+            </button>  
+            <button class="button" id="single-player-toggle">&#x1F477</button>
+            <button class="button" id="dimension-button">10x10</button>
+            <button class="button" id="undo">Hoàn tác</button>
+          </div>   
+        </div>
+        <div id="board" class="game"></div>
+        <div class="win-history">
+          <button id="WinHistory">Lịch sử chiến thắng</button>
+          <div id="win-history"></div>
+          <div id="history"></div>
+        </div>
+      </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
